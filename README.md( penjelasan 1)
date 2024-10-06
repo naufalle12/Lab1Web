@@ -1,0 +1,21 @@
+# Lab1Web
+pertama buat dokumen html dahulu dengan nama yang kalian inginkan misal(coba1.html)
+lalu masukan syntax nya 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+setelah itu input teks dan gambar sesuka masing masing, bila ingin menambahkan gambar caranya :
+1. pilih atau unduh gambar yang kalian mau
+2. buat file images untuk menyimpan gambar kalian
+3. drop atau pindahkan gambar kalian ke dalam file images
+4. lalu setelah itu ketikan syntax 
+<img src="images/foto1.png" width="200" title="logo upb"> 
+img src itu yang berarti dimana file gambar kalian berada dan = images/foto.png itu adalah nama file gambar kalian. untuk width nya adalah ukuran pixel dari gambar tersebut dan title adalah nama judul dari gambar tersebut

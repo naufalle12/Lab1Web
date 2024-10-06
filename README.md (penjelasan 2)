@@ -1,87 +1,18 @@
-1. Deklarasi Awal
+Deklarasi <!DOCTYPE html> menunjukkan bahwa dokumen ini ditulis dalam HTML5.
+Elemen <html> menandakan awal dokumen HTML, dengan atribut lang="en" yang menunjukkan bahwa bahasa utama halaman ini adalah bahasa Inggris.
+Bagian <head> berisi metadata tentang halaman.
+<meta charset="UTF-8"> menetapkan pengkodean karakter yang digunakan, yaitu UTF-8 (standar untuk banyak karakter).
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> menyesuaikan tampilan halaman agar cocok dengan lebar layar perangkat (responsif).
+<title>Toko arkosecond.id</title> mendefinisikan judul halaman yang akan muncul di tab browser.
+Komentar <!--ini nav--> memberikan informasi bahwa bagian ini adalah navigasi.
+Elemen <nav> adalah bagian untuk navigasi, di dalamnya terdapat tautan (<a>) ke akun Instagram resmi arkosecond.id.
+Elemen <hr> digunakan untuk membuat garis horizontal sebagai pemisah antar elemen.
+<h1> adalah heading utama (judul besar) dengan teks "arkosecond.id".
+<p> digunakan untuk paragraf teks. Atribut align="justify" membuat teks menjadi rata kanan-kiri (justified). Isi paragrafnya menjelaskan bahwa toko ini menjual barang impor dengan harga yang bersahabat.
+<h2> adalah heading untuk subjudul kedua, dengan teks "payment", menunjukkan bagian yang membahas pembayaran.
+Paragraf ini memberikan informasi bahwa toko menerima berbagai metode pembayaran.
+<h3> adalah heading untuk subjudul berikutnya yang berbunyi "produk tersedia", menandakan daftar produk yang ada.
 html
-Salin kode
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Tag HTML Dasar</title>
-  </head>
-  <body>
-<!DOCTYPE html>: Mendeklarasikan bahwa dokumen ini menggunakan HTML5. Ini memberi tahu browser untuk merender halaman sesuai standar HTML5.
-<html>: Elemen utama yang membungkus seluruh halaman web.
-<head>: Bagian ini berisi metadata tentang dokumen HTML, termasuk judul halaman.
-<title>: Berisi teks yang akan muncul sebagai judul halaman di tab browser.
-2. Menambahkan Link Navigasi
-html
-Salin kode
-<nav>
-  <a href="lab1_tag_dasar.html">Dasar HTML</a>
-  <a href="lab1_halaman2.html">Halaman 2</a>
-  <a href="http://www.google.com">Halaman Web Eksternal Google</a>
-</nav>
-<nav>: Elemen ini digunakan untuk mendefinisikan bagian navigasi pada halaman web.
-<a href="...">: Tag ini digunakan untuk membuat hyperlink. Tautan ini memungkinkan pengguna untuk membuka halaman lain:
-lab1_tag_dasar.html: Mengarahkan ke halaman lokal "Dasar HTML".
-lab1_halaman2.html: Mengarahkan ke halaman lokal "Halaman 2".
-http://www.google.com: Mengarahkan ke situs web eksternal (Google).
-3. Garis Horizontal
-html
-Salin kode
-<hr />
-<hr />: Elemen ini membuat garis horizontal pada halaman web untuk memisahkan konten.
-4. Judul Paragraf Pertama
-html
-Salin kode
-<h1>Belajar Dasar HTML</h1>
-<h1>: Tag ini digunakan untuk membuat judul utama atau heading level 1. Biasanya teks ini lebih besar daripada heading lainnya, karena merupakan heading tingkat tertinggi.
-5. Paragraf Pertama
-html
-Salin kode
-<p align="justify">
-  Kami sedang belajar <mark>HTML dasar</mark>, pada matakuliah
-  <strong>Pemrograman Web</strong> di Prodi Teknik Informatika
-  <u>Universitas Pelita Bangsa.</u> Pelajaran pertama yang kami dapat adalah
-  membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML.
-</p>
-<p>: Tag ini digunakan untuk mendefinisikan paragraf. Atribut align="justify" digunakan untuk meratakan teks kiri dan kanan.
-<mark>: Menyorot teks dengan latar belakang berwarna kuning, dalam hal ini "HTML dasar".
-<strong>: Membuat teks di dalamnya menjadi tebal untuk memberikan penekanan, dalam hal ini "Pemrograman Web".
-<u>: Memberikan efek garis bawah pada teks, dalam hal ini "Universitas Pelita Bangsa".
-6. Judul Paragraf Kedua
-html
-Salin kode
-<h2>paragraf pada HTML</h2>
-<h2>: Membuat subjudul atau heading level 2, biasanya lebih kecil daripada <h1>, tetapi masih penting.
-7. Paragraf Kedua
-html
-Salin kode
-<p align="justify">
-  Ini merupakan sebuah paragraf yang terdiri dari beberapa kalimat yang
-  saling mendukung sehingga menjadi satu kesatuan. Paragraf dibuat dengan
-  menggunakan tag dasar html.
-</p>
-<p align="justify">: Sama seperti paragraf pertama, tag ini mendefinisikan sebuah paragraf dan meratakan teks kiri dan kanan menggunakan atribut align="justify".
-8. Judul untuk Gambar
-html
-Salin kode
-<h3>Logo</h3>
-<h3>: Membuat heading level 3, yang biasanya lebih kecil dari <h1> dan <h2>. Heading ini digunakan untuk memperkenalkan gambar "Logo".
-9. Menambahkan Gambar
-html
-Salin kode
-<img src="images/Logo-Universitas-Pelita-Bangsa (1).png" width="200" title="logo upb" />
-<img>: Tag ini digunakan untuk menampilkan gambar pada halaman web.
-src="images/Logo-Universitas-Pelita-Bangsa (1).png": Menunjukkan sumber gambar. Dalam contoh ini, gambar diambil dari folder images dengan nama file Logo-Universitas-Pelita-Bangsa (1).png.
-width="200": Mengatur lebar gambar menjadi 200 piksel. Tinggi gambar akan disesuaikan secara otomatis agar proporsional.
-title="logo upb": Menampilkan tooltip yang muncul ketika kursor pengguna diarahkan ke gambar. Ini memberikan informasi tambahan tentang gambar, yakni "logo upb".
-10. Penutupan Tag
-html
-Salin kode
-</body>
-</html>
-</body>: Menutup elemen body, yang berisi semua konten halaman web.
-</html>: Menutup elemen HTML, yang menandai akhir dari dokumen HTML.
-Ringkasan:
-Kode ini berisi struktur dasar sebuah halaman HTML, yang mencakup heading, paragraf, link navigasi, serta gambar.
-Terdapat penggunaan tag seperti <p>, <mark>, <strong>, <u>, <img>, dan berbagai elemen navigasi yang umum digunakan di halaman web.
-Setiap elemen dalam halaman memiliki fungsinya masing-masing untuk membuat halaman lebih terstruktur dan informatif.
+<img> digunakan untuk menampilkan gambar. Atribut src menunjukkan lokasi file gambar yang ditampilkan (images/foto1.png), width="200" mengatur lebar gambar menjadi 200 piksel, dan title="logo upb" menampilkan informasi tooltip saat kursor diarahkan ke gambar.
+<p> berisi nama produk, yaitu "Adidas City Series Munchen Gray".
+Kesimpulannya, kode ini adalah struktur halaman web sederhana untuk toko online bernama "arkosecond.id", yang berisi navigasi, informasi produk, dan penerimaan pembayaran.

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko arkosecond.id</title>
+</head>
+    <!--ini nav-->
+    <nav>
+        <a href="https://www.instagram.com//arkosecond.id">Official Instragram Account</a> </nav>
+    <hr>
+    <!--judul paragraf pertama-->
+    <h1>arkosecond.id</h1>
+    <!--Ini paragraf pertama-->
+    <p align="justify">Menjual berbagai barang impor berkuliatas dan harga bersahabat.</p>
+    <!--judul paragraf kedua-->
+    <h2>payment</h2>
+    <!--Ini paragraf kedua-->
+    <p align="justify"> menerima berbagai pembayaran apapun.</p>
+    <!--sub judul paragraf-->
+    <h3>produk tersedia</h3>
+    <!--nambahin gambar pada dock-->
+    <img src="images/foto1.png" width="200" title="logo upb">
+    <p>Adidas City Series Munchen Gray</p>
+</body>
+</html>
